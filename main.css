@@ -1,0 +1,245 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+\
+* {
+
+	outline: 1px solid black;
+}
+\
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+.head {
+	min-width: 975px;
+	width: 100%;
+	display: inline;
+
+
+}
+
+#signin {
+box-sizing: border-box;
+height: 30px;
+width: 70px;
+border: 0;
+border-radius: 2px;
+background: linear-gradient(135deg, #4387fb 0%, #4583eb 99%);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: white;
+font-size: 13px;
+position: absolute;
+right: 0;
+top: 0;
+margin: 5px;
+
+
+}
+
+#nav_grid {
+	position: absolute;
+	right: 80px;
+	top: 0;
+	margin: 5px;
+}
+
+
+
+footer {
+position: absolute;
+width: 100%;
+bottom: 0;
+height: 40px;
+background-color: #f2f2f2;
+left: 0;
+
+}
+
+.nav {
+float: right;
+height: 50px;
+margin-right: 15px;
+
+}
+
+#nav_links {
+font-family: Helvetica, sans-serif;
+font-size: 13px;
+
+
+word-spacing: 10px;	
+position: absolute;
+top; 0;
+right: 100px;
+}
+
+#linksWrapperLeft {
+display: inline;
+position: relative;
+top: 10px;
+left: 10px;
+word-spacing: 5px;
+font-size: 13px;
+font-family: Helvetica, sans-serif;
+}
+
+#linksWrapperRight {
+	position: relative;
+	bottom: 0px;
+	right: 5px;
+	float: right;
+	margin-right: 10px;
+	display: inline;
+	font-size: 13px;
+	font-family: Helvetica, sans-serif;
+
+
+}
+
+.logo {
+	position: relative;
+	top: 0;
+	left: 20%;
+	margin-top: 30px;
+
+
+	
+}
+
+.searchbar {
+	position: relative;
+	left: 0;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+li {
+	display: inline;
+	padding: 10px;
+
+}
+
+form {
+	position: absolute;
+	left: 30%;
+	top: 25%;
+
+	width: 500px;
+	height: 200px;
+}
+.search {
+width: 500px;
+height: 30px;
+border: 1px solid #d9d9d9;
+background-image: url("https://dl.dropboxusercontent.com/u/15152010/thinkful/FEWD/google_clone/images/microphone.png");
+background-repeat: no-repeat;
+background-position: right;
+position: relative;
+
+left: 0;
+top: 50px;
+margin-left: 0;
+margin-bottom: 20px;
+
+}
+
+.googlesubmit {
+height: 29px;
+border: 1px solid #d9d9d9;
+border-radius: 2px;
+font-family: Arial; Helvetica; sans-serif;
+font-weight: bold;
+color: black;
+position: relative;
+bottom: 0;
+left: 70px;
+margin: 50px;
+background: #f2f2f2;
+
+
+
+}
+
+.luckysubmit {
+height: 29px;
+border: 1px solid #d9d9d9;
+border-radius: 2px;
+font-family: Arial; Helvetica; sans-serif;
+font-weight: bold;
+color: black;
+background: #f2f2f2;
+position: relative;
+bottom: 0;
+left: 80px;
+
+
+
+
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #393939;
+}
+
